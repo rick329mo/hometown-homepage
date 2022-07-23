@@ -20,6 +20,7 @@ body {
     
 
 }
+
 #hero-title {
     margin-top: 0px;
     margin-bottom: 0;
@@ -60,8 +61,8 @@ body {
 
 .main-img {
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background-color: lightblue;
     border-radius: 100%;
     box-shadow: 0px 4px 8px 0px rgb(50, 49, 49);
@@ -76,6 +77,14 @@ a:link, a:visited, a:hover {
     border-radius: 100%;
     font-size: medium;
     opacity: 0%;
+  }
+
+  .main-description {
+    margin-top: 0px;
+  }
+
+  .main-title {
+    border-bottom: 8px;
   }
   
 
@@ -123,4 +132,64 @@ a:link, a:visited, a:hover {
     filter: grayscale(100%);
 }
 
+#footer {
+   height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+}
+
+.footer-card {
+    background: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgb(50, 49, 49);
+}
+
+.footer-avatar {
+    background-image: url("images/rick.jpg");
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 8px 0px rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-link {
+    padding: 115px 50px;
+}
+
+.footer-avatar:hover {
+    filter: grayscale(100%);
+}
+
+#footer-guide {
+    width: 180px;
+    height: 250px;
+
+}
+
+#footer-title {
+    font-size: 22px;
+}
+
+#footer-description {
+    font-size: 15px;
+}
+
+#footer-name {
+    font-size: 16px;
+}
 
